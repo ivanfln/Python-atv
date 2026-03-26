@@ -1,0 +1,7 @@
+n1 = input ('Digite um valor:')
+print (type(n1))
+print (f'{n1} São letras? {n1.isalpha()}')
+print (f'{n1} Está em letras minúsculas? {n1.islower()}')
+print (f'{n1} Os caracteres são espaços em branco? {n1.isspace()}')
+print (f'{n1} É numérico? {n1.isnumeric()}')
+print (f'{n1} É um unicode decimal? {n1.isdecimal()}')
